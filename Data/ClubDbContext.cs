@@ -9,7 +9,7 @@ namespace ClubRegistration.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Host=localhost;Database=ClubDatabase;Username=postgres;Password=passwordnamabangis");
+            optionsBuilder.UseNpgsql("Host=localhost;Database=ClubDatabase;Username=postgres;Password=passwordkosapostgresql");
         }
     }
 }

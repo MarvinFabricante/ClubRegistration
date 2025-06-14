@@ -146,6 +146,16 @@ namespace ClubRegistration
             {
                 MessageBox.Show($"Please enter an integer value. {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            finally
+            {
+                studentIDTextbox.Clear();
+                firstnameTxtbox.Clear();
+                middlenameTxtbox.Clear();
+                lastnameTxtbox.Clear();
+                ageTxtbox.Clear();
+                genderCombobox.SelectedIndex = -1;
+                programCombobox.SelectedIndex = -1;
+            }
         }
 
         private void refreshBtn_Click(object sender, EventArgs e)

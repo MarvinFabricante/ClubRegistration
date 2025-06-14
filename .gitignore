@@ -1,0 +1,13 @@
+﻿# Ignore build and IDE folders
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+
+# Ignore temporary files
+*.tmp
+*.DS_Store
+Thumbs.db

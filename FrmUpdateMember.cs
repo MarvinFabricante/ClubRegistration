@@ -136,7 +136,7 @@ namespace ClubRegistration
 
             frmClubRegistration.Show();
 
-            this.Hide();
+            this.Close();
 
         }
     }

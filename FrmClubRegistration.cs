@@ -15,11 +15,12 @@ namespace ClubRegistration
             #region -- Display data and contents when loading --
             InitializeComponent();
             table.Columns.Add("StudentID", "Student ID");
-            table.Columns.Add("Program", "Program");
             table.Columns.Add("FirstName", "First Name");
             table.Columns.Add("MiddleName", "Middle Name");
             table.Columns.Add("LastName", "Last Name");
+            table.Columns.Add("Age", "Age");
             table.Columns.Add("Gender", "Gender");
+            table.Columns.Add("Program", "Program");
             table.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
             this.Load += async (s, e) => await GetAllClubMembersAsync();
